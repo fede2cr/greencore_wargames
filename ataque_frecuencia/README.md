@@ -22,7 +22,7 @@ Esto nos va a entregar una tabla de frecuencia para el Quijote, donde la letra E
 
 ```bash
 wget -O cuentos_y_cronicas.txt https://www.gutenberg.org/files/51627/51627-0.txt
-grep -o . cuentos_y_cronicas.txt | sort | uniq -ci|sort -n
+grep -o . cuentos_y_cronicas.txt | sort | uniq -ci | sort -n
 ```
 
 Para los Cuentos y Crónicas de Darío, la frecuencia es: E, A, O, S, N, R, L, I, D.
@@ -36,7 +36,7 @@ El archivo se encuentra escrito en mayúsculas, pero con espacios para mejor leg
 Cuando vayamos reemplazando caracteres, vamos a pasar de mayúscula a minúscula para que se entienda mejor las partes del texto que ya hemos descifrado.
 
 ```bash
-grep -o . cifrado.txt | sort | uniq -ci|sort -n
+grep -o . cifrado.txt | sort | uniq -ci | sort -n
 ```
 
 Según el criptoanálisis para el archivo ``cifrado.txt`` la frecuencia es: R, N, B, F, E, V, e.g.
@@ -45,17 +45,34 @@ Con la herramienta sed vamos a ir probando combinaciones, una por una, de mayor 
 
 Iniciamos reemplazando la ``R`` por una ``e``.
 
+Letra cifrada | Sustitucion
+--------------|-------
+R             | e
+
 ```bash
 sed 's/R/e/g' cifrado.txt
 ```
 
 Podemos notar que aparecen varias letras ``e`` en el texto, pero todavía es muy temprano para encontrar palabras, por lo que probamos con otras letras, reconociendo que podemos cometer errores por lo que hay que estar listo para probar con otra letra de la frecuencia.
 
+Letra cifrada | Sustitucion
+--------------|-------
+R             | e
+N             | a
+
 ```bash
 sed 's/R/e/g ; s/N/a/g' cifrado.txt
 ```
 
 Un último ejemplo con más reemplazos. Ahora debes jugar con la reemplazos y frecuencias hasta poder leer el archivo completo.
+
+Letra cifrada | Sustitucion
+--------------|-------
+R             | e
+N             | a
+B             | o 
+F             | s
+E             | g
 
 ```bash
 sed 's/R/e/g ; s/N/a/g ; s/B/o/g ; s/F/s/g ; s/E/r/g' cifrado.txt
