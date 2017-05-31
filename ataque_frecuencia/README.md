@@ -1,12 +1,12 @@
 # Nivel de ataque de frecuencia
 
-Tenemos un texto corto, escrito **en Español** que ha sido cifrado con algún algoritmo de subtitución, y debemos ejecutar un ataque de frecuencia para conocer la substitución.
+Tenemos un texto corto, escrito **en Español** que ha sido cifrado con algún algoritmo de sustitución, y debemos ejecutar un ataque de frecuencia para obtener los caracteres que usaremos para descifrarlo.
 
 ## ¿Que es un ataque de frecuencia?
 
 Para cada idioma escrito, existe alguna letra del alfabeto que va a ser la más utilizada, otra que va a ser la segunda más utilizada, etc. Como en este caso que ya conocemos el idioma, podemos utilizar un texto en el mismo idioma para crear una frecuencia de letras, y luego utilizar esta frecuencia como **base** para tratar de abrir el texto.
 
-Esta técnica fue creada por el polímata Al-Kindi, siendo la primera técnica de criptoanálisis conocida, capaz de romper algoritmos de substitución, con una mayor eficiencia entre más texto se tenga que haya cifrado de la misma forma.
+Esta técnica fue creada por el polímata Al-Kindi, siendo la primera técnica de criptoanálisis conocida, capaz de romper algoritmos de sustitución, con una mayor eficiencia entre más texto se tenga que haya cifrado de la misma forma.
 
 ### Creando **nuestra** lista de frecuencia
 
