@@ -79,3 +79,10 @@ done | nl
 
 ```
 
+Podemos observar que solo una de las combinaciones produce el texto original.
+
+## Resolviendo el ejercicio
+
+Utilice el archivo cifrado.txt como fuente y realice un ataque de fuerza bruta con la herramienta ``caesar``.
+
+Para entregar el ejercicio debe entregar el valor de ``caesar`` que resuelve el texto original.
