@@ -7,7 +7,7 @@ Wargames diseñados para aprender y practicar conceptos básicos de seguridad
 
 Utilice la primera técnica de criptoanálisis, creada por Al-Kindi, para romper un cifrado de sustitución.
 
-2. [Fuerza bruta a Caesar](https://github.com/fede2cr/greencore_wargames/tree/master/fuerza_bruta_caesar)
+2. [Fuerza bruta a Caesar](https://github.com/fede2cr/greencore_wargames/tree/master/tutoriales/fuerza_bruta_caesar)
 
 Una pequeña introducción a ataques de fuerza bruta, con el pequeñito diccionario del cifrado de sustitución Caesar.
 
