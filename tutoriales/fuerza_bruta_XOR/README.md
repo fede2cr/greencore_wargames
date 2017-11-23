@@ -32,7 +32,7 @@ xortool cifrado.txt
 En este caso se nos sugiere que la contraseña puede ser de 8 caracteres, para lo cual se recomienda probar con dicha longitud, agregando ataque de fuerza bruta.
 
 ```bash
-xortoll -l 8 -b cifrado.txt
+xortool -l 8 -b cifrado.txt
 ```
 
 En el nuevo directorio creado de xortool, revise el contenido de los archivos CSV para encontrar la contraseña correcta, así como compruebe que el archivo .out correspondiente a la llave ha sido decifrado correctamente.
