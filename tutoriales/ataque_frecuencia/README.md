@@ -40,6 +40,7 @@ El archivo se encuentra escrito en mayúsculas, pero con espacios para mejor leg
 Cuando vayamos reemplazando caracteres, vamos a pasar de mayúscula a minúscula para que se entienda mejor las partes del texto que ya hemos descifrado.
 
 ```bash
+wget https://raw.githubusercontent.com/fede2cr/greencore_wargames/master/tutoriales/ataque_frecuencia/cifrado.txt
 grep -o . cifrado.txt | sort | uniq -ci | sort -n
 ```
 
