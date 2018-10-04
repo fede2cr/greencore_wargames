@@ -8,7 +8,11 @@ Para cada idioma escrito, existe alguna letra del alfabeto que va a ser la más 
 
 Esta técnica fue creada por el polímata Al-Kindi, siendo la primera técnica de criptoanálisis conocida, capaz de romper algoritmos de sustitución, con una mayor eficiencia entre más texto se tenga que haya cifrado de la misma forma.
 
+![Al-Kindi](https://upload.wikimedia.org/wikipedia/commons/e/e5/Al-kindi.jpeg)
+
 Una razón en porqué Al-Kindi pudo desarrollar la técnica de ataque de frecuencia en textos cifrados fue principalmente por el acceso a textos en múltiples idiomas a los cuales realizar una frecuencia de caracteres para separarlos por idioma.
+
+![Primer documento de criptoanálisis](https://upload.wikimedia.org/wikipedia/commons/7/76/Al-kindi_cryptographic.png)
 
 Por esta razón los llamados "[Navajo Code Talkers](https://en.wikipedia.org/wiki/Code_talker#Navajo_code_talkers)" utilizados en la segunda guerra para cifrado de los mensajes de mayor importancia, aprovechando la poca accesibilidad que se tenía al lenguaje a nivel internacional por criptógrafos.
 
