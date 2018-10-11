@@ -1,8 +1,8 @@
 # Ataque de fuerza bruta a Caesar
 
-Tenemos un texto que ha sido cifrado usando sustitución, específicamente Caesar.Para abrir un Caesar es necesario saber cuantos caracteres fueron movidos, para moverlos en la otra dirección y obtener el texto original. En este ejercicio desconocemos dicho número.
+Tenemos un texto que ha sido cifrado usando sustitución, específicamente Caesar. Para abrir un Caesar es necesario saber cuantos caracteres fueron movidos, para moverlos en la otra dirección y obtener el texto original. En este ejercicio desconocemos dicho número.
 
-## ¿Que es un ataque de fuerza bruta?
+## ¿Qué es un ataque de fuerza bruta?
 
 Es un ataque donde nos aprovechamos que la cantidad de posibilidades, ya sea de una contraseña, de un espacio de llaves o en este caso de posiciones de rotación, es lo suficientemente pequeño para poder probar todas las posibilidades.
 
