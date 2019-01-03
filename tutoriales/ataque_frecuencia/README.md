@@ -2,7 +2,7 @@
 
 Tenemos un texto corto, escrito **en Español** que ha sido cifrado con algún algoritmo de sustitución, y debemos ejecutar un ataque de frecuencia para obtener los caracteres que usaremos para descifrarlo.
 
-## ¿Que es un ataque de frecuencia?
+## ¿Qué es un ataque de frecuencia?
 
 Para cada idioma escrito, existe alguna letra del alfabeto que va a ser la más utilizada, otra que va a ser la segunda más utilizada, etc. Como en este caso que ya conocemos el idioma, podemos utilizar un texto en el mismo idioma para crear una frecuencia de letras, y luego utilizar esta frecuencia como **base** para tratar de abrir el texto.
 
@@ -54,7 +54,7 @@ Con la herramienta sed vamos a ir probando combinaciones, una por una, de mayor 
 
 Iniciamos reemplazando la ``R`` por una ``e``.
 
-Letra cifrada | Sustitucion
+Letra cifrada | Sustitución
 --------------|-------
 R             | e
 
@@ -64,7 +64,7 @@ sed 's/R/e/g' cifrado.txt
 
 Podemos notar que aparecen varias letras ``e`` en el texto, pero todavía es muy temprano para encontrar palabras, por lo que probamos con otras letras, reconociendo que podemos cometer errores por lo que hay que estar listo para probar con otra letra de la frecuencia.
 
-Letra cifrada | Sustitucion
+Letra cifrada | Sustitución
 --------------|-------
 R             | e
 N             | a
@@ -75,7 +75,7 @@ sed 's/R/e/g ; s/N/a/g' cifrado.txt
 
 Un último ejemplo con más reemplazos. Ahora debes jugar con la reemplazos y frecuencias hasta poder leer el archivo completo.
 
-Letra cifrada | Sustitucion
+Letra cifrada | Sustitución
 --------------|-------
 R             | e
 N             | a
